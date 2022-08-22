@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Level Up</title>
+    <link rel="stylesheet" href="/CSS/video_background.css" type="text/css" />
+    <link rel="stylesheet" href="/CSS/figure.css" type="text/css" />
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      header {
+        background: purple;
+        height: 100px;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+      article {
+        padding: 10px;
+        margin: 10px;
+      }
+
+      /* Add your flexbox CSS below here */
+      section {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Level Up</h1>
+    </header>
+
+    <!-- Block #1 -->
+    <section>
+      <article>
+        <p>
+          <img src="/IMG/prod.png" alt="No image" />
+        </p>
+      </article>
+
+      <article>
+        <div class="page-video">
+          <video
+            class="video"
+            loop="loop"
+            autoplay=""
+            muted=""
+            poster="https://denis-creative.com/wp-content/uploads/2020/04/video-poster.jpg"
+          >
+            <source
+              src="https://denis-creative.com/wp-content/uploads/2020/04/video.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="https://denis-creative.com/wp-content/uploads/2020/04/video.ogv"
+              type="video/ogv"
+            />
+            <source
+              src="https://denis-creative.com/wp-content/uploads/2020/04/video.webm"
+              type="video/webm"
+            />
+          </video>
+        </div>
+      </article>
+
+      <article class="content">
+        <h1 class="title">
+          <ul>
+            <li>Улучшает проходимость крови в кровеносных сосудах</li>
+            <li>
+              Восстанавливает сексуальное влечение и улучшает половую фукнцию
+            </li>
+            <li>Способствует снижению уровня лептина</li>
+          </ul>
+          <button>Оформить заказ</button>
+        </h1>
+      </article>
+    </section>
+  </body>
+</html>
